@@ -44,10 +44,9 @@ const Login = () => {
       } catch (error) {
         if (error.response) {
           console.error("login failed:", error.response.data);
-          toast.error("login failed. Please try again.");
+          toast.error( error.message);
         } else {
-          console.error("login failed:", error.message);
-          toast.error("login failed. Please check your network connection.");
+          toast.error( error.message);
         }
       } finally {
         setLoading(false);
