@@ -8,6 +8,8 @@
 .image-wrapper {
   background-color: #2d90ec;
   width: 50%;
+  text-align: center;
+
 }
 .main-img {
   display: flex;
@@ -28,7 +30,7 @@
 }
 
 img {
-  width: 60%;
+  width: 50%;
   margin: auto;
   display: block;
   margin-top:50px ;
@@ -82,8 +84,8 @@ input {
 }
 .google {
   position: absolute;
-  left: 25%;
-  top: 50%;
+  left: 30%;
+  top: -50%;
   transform: translateY(-50%);
   width: 30px;
   height: auto;
