@@ -82,7 +82,7 @@ input {
 }
 .google {
   position: absolute;
-  left: 30%;
+  left: 25%;
   top: 50%;
   transform: translateY(-50%);
   width: 30px;
