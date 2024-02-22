@@ -1,128 +1,129 @@
-.container{
-    display:flex;
-    flex-direction: space-between;
-    height: 100vh;
+/** @format */
 
+.container {
+  display: flex;
+  flex-direction: space-between;
+  height: 100vh;
 }
-.image-wrapper{
-    background-color: #2D90EC;
-    width: 50%;
-    /* justify-content: center;
-    text-align: center; */
-    
-
+.image-wrapper {
+  background-color: #2d90ec;
+  width: 50%;
 }
-.main-img{
-  display: flex;  
+.main-img {
+  display: flex;
   justify-content: center;
-text-align: center;
+  text-align: center;
 }
-.error{
-    color: red;
+.error {
+  color: red;
+  align-self: self-start;
 }
 
 .img-title {
-    color: #fff;
+  color: #fff;
 }
-.img-title h2{
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-img{
-    width: 60%;
-    margin: auto;
-    display: block;
-}
-.form-wrapper{
-     width: 30%;
-    margin-top: 100px;
-     align-items: start; 
-    justify-content: flex-start;
-    border-color: 2px red; 
-    display: flex;
-    flex-direction: column;
-    margin-left: 70px;
-  
-}
-.form-wrapper h2{
-font-style: italic;
-background: linear-gradient(85.81deg, #2D90EC 20.5%, rgba(0, 0, 0, 0) 109.32%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent; 
-font-size: 2rem;
-margin-bottom: 20px;
-
-}
-h1{
-    font-size: 2rem;
-}
-form{
-    display: block;
-    width: 100%;
+.img-title h2 {
+  font-size: 3rem;
+  font-weight: 700;
 }
 
-.form-control{
-    display: block;
-    display: flex;
-    flex-direction: column;
+img {
+  width: 60%;
+  margin: auto;
+  display: block;
 }
-input{
-    width: 95%;
-    padding: 15px;
-    border-color: 2px #eee;
-    margin-bottom: 15px;
-    border-color: 2px solid #eee;
-    outline: none;
+.form-wrapper {
+  width: 30%;
+  margin-top: 100px;
+  align-items: start;
+  justify-content: flex-start;
+  border-color: 2px red;
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.form-wrapper h2 {
+  font-style: italic;
+  background: linear-gradient(
+    85.81deg,
+    #2d90ec 20.5%,
+    rgba(0, 0, 0, 0) 109.32%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+h1 {
+  font-size: 2rem;
+}
+form {
+  display: block;
+  width: 100%;
+}
+
+.form-control {
+  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+input {
+  width: 95%;
+  padding: 15px;
+  border-color: 2px #eee;
+  margin-bottom: 10px;
+  border-color: 2px solid #eee;
+  outline: none;
 }
 .input-container {
-    position: relative;
-  }
-  .google {
-    position: absolute;
-    left: 30%; 
-    top: 50%;
-    transform: translateY(-50%);
-    width: 30px; 
-    height: auto;
+  position: relative;
+}
+.google {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;
+  height: auto;
 }
 
-  .icon {
-    position: absolute;
-    top: 50%;
-    left:90%;
-    font-size: 25px;
-    transform: translateY(-50%);
-    color: #ccc; 
-  }
-  
-.login-button{
-    width: 100%;
-    padding: 12px;
-    color: #fff;
-    background-color: #2D90EC;
-    outline: none;
-    cursor: pointer;
-    border: none;
-    font-size: 1.2rem;
-    margin-top: 20px;
-} 
-span{
-    color: #2D90EC;
+.icon {
+  position: absolute;
+  top: 50%;
+  left: 90%;
+  font-size: 25px;
+  transform: translateY(-50%);
+  color: #ccc;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  color: #fff;
+  background-color: #2d90ec;
+  outline: none;
+  cursor: pointer;
+  border: none;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+span {
+  color: #2d90ec;
 }
 .form-control label {
-align-self: center; 
- }
-  
-.google-buton{
-    width: 100%;
-    position: relative;
-    padding: 12px;
-    outline: none;
-    cursor: pointer;
-    margin-top: 20px;
+  align-self: start;
+  margin-bottom: 2px;
+}
 
-    border-color: 2px solid #ccc;
-    font-size: 1.2rem;
+.google-buton {
+  width: 100%;
+  position: relative;
+  padding: 12px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
 
+  border-color: 2px solid #ccc;
+  font-size: 1.2rem;
 }
